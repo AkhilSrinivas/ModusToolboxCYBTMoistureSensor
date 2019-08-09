@@ -1,0 +1,18 @@
+
+Patch ram starts at          0x270400 (RAM address)
+Patch ram ends at            0x27388C (RAM address)
+Patch ram starts at          0x20F79C (RAM address)
+Patch ram ends at            0x20FAB8 (RAM address)
+DS length 248832 (0x03CC00) at 0x501400
+.app_xip_area_ds2    Flash start 0x53E000, end 0x53E35C, size 860
+                     SRAM start 0x20FAB8, end 0x20FAB8, size 0
+   .app_xip_area    Flash start 0x511500, end 0x5265CB, size 86219
+           .data     SRAM start 0x20FAB8, end 0x20FFF0, size 1336
+            .bss     SRAM start 0x20FFF0, end 0x210C34, size 3140
+
+Application memory usage:
+  xip_section (Flash): used 0x511500 - 0x5265CB size (86219)
+  xip_section_ds2 (Flash): used 0x53E000 - 0x53E35C size (860)
+  ram (SRAM): used 0x20FAB8 - 0x210C34 size (4476)
+Total footprint 91555 (0x165A3)
+
